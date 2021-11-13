@@ -10,16 +10,19 @@ A kanban board using the React Native JavaScript framework, the Redux JavaScript
 * In it's own repo.
 * Something simple. No api calls. etc.
 
-1. Start with a to-do list where 
+1. Start with a to-do list where
+
     a. you can make multiple lists, 
+
     b. add items to each of them, 
+    
     c. delete items from each of them.
 
 2. When that is successful, then create a "Trello" board.
 
-* Create a comprehensive .gitignore file for this repo.
-
 ## Next Steps
+
+* Create a comprehensive .gitignore file for this repo.
 
 ## Status
 
