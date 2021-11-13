@@ -23,6 +23,9 @@ A kanban board using the React Native JavaScript framework, the Redux JavaScript
 
 ## Status
 
+* Followed along with three tutorials.
+See individual [Directory](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Libraries/Redux#directories) for status.
+
 ## Associated Links
 
 * https://trello.com/c/4fxf8Eif/220-learn-redux
