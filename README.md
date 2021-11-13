@@ -24,6 +24,19 @@ A kanban board using the React Native JavaScript framework, the Redux JavaScript
 
 * Create a comprehensive .gitignore file for this repo.
 
+* By the time Redux is loaded make sure the file structure is:
+```
+- root directory
+    -src
+        -js
+            -actions
+            -components
+            -constants
+            -middleware
+            -reducers
+            -store
+```
+
 ## Status
 
 * Followed along with three tutorials.
