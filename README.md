@@ -6,7 +6,7 @@ A kanban board using the React Native JavaScript framework, the Redux JavaScript
 ## To-Do Items
 
 * Create an app called `Kanban Board` using 
-    * Redux, 
+    * Redux (See this [documentation](https://github.com/reduxjs/react-redux) to add it to the app.), 
     * React Native, 
     * and Expo.
 * In it's own repo.
