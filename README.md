@@ -39,6 +39,8 @@ A kanban board using the React Native JavaScript framework, the Redux JavaScript
 
 ## Status
 
+* Attempting to get the List component to load once the button is selected.
+
 * Followed along with three tutorials.
 See individual [Directory](https://github.com/JamieBort/LearningDirectory/tree/master/JavaScript/Libraries/Redux#directories) for status.
 
