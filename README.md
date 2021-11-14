@@ -24,7 +24,17 @@ A kanban board using the React Native JavaScript framework, the Redux JavaScript
 
 ## Next Steps
 
-* Create a comprehensive .gitignore file for this repo.
+* Create a `ListItemComponents` branch.
+
+* Create a `List` component and an `Item` component.
+
+* Delete the `gitignore` branch.
+
+* Delete the `ListItemComponents` branch.
+
+* Populate them with `props`.
+
+* Populate them with `state`.
 
 * By the time Redux is loaded make sure the file structure is:
 ```
