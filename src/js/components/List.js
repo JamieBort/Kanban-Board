@@ -2,11 +2,11 @@ import React from 'react';
 import { Text } from 'react-native';
 import Item from './Item';
 
-const List = () => {
+const List = (props) => {
 	return (
 		<div>
-			<Text>Hello, I am your List!</Text>
-			<button>Button to remove the entire list.</button>
+			<Text>{props.number} List</Text>
+			<button>Button in List to remove the entire list.</button>
 			<button>Button to add an item to the list.</button>
 			{/* <ul>
 				<Item message="first" />

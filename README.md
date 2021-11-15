@@ -28,9 +28,9 @@ A kanban board using the React Native JavaScript framework, the Redux JavaScript
 
 * ~~Have the `List` component render by toggling a button.~~ Done.
 
-* Generate a `List` component each time the `Add List` button is selected.
+* ~~Generate a `List` component each time the `Add List` button is selected.~~ Done.
 
-* Remove a `List` component each time the `Remove List` button is selected.
+* ~~Remove a `List` component each time the `Remove List` button is selected.~~ Done.
 
 * Generate an `Item` component each time the button is pushed.
 
