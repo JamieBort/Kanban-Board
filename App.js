@@ -1,59 +1,49 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import List from './src/js/components/List';
 
-export default function App() {
-	return (
-		<View style={styles.container}>
-			<Text>The List app</Text>
-			<button>Button to add a list.</button>
-			<List />
-		</View>
-	);
+export default class App extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			ternary_statement: false,
+			isToggleOn: true,
+		};
+		// This binding is necessary to make `this` work in the callback
+		this.handleClick = this.handleClick.bind(this);
+	}
 
-	// const [ status, setStatus ] = React.useState(false);
+	handleClick() {
+		console.log('Inside the handleClick');
+		this.setState((prevState) => ({
+			isToggleOn: !prevState.isToggleOn,
+		}));
+	}
 
-	// const toggle = () => {
-	// 	console.log(status);
-	// 	let update = status ? false : true;
-	// 	setStatus(update);
-	// 	console.log(status);
-	// };
+	triggerButton = () => {
+		console.log('Inside the triggerButton');
+		this.setState((toggle) => ({
+			ternary_statement: !toggle.ternary_statement,
+		}));
+	};
 
-	// if (status) {
-	// 	return (
-	// 		<View style={styles.container}>
-	// 			<TouchableOpacity onPress={toggle}>
-	// 				<Text>Press me</Text>
-	// 				{/* <List title={'My First List'} firstItem={'My first item'} /> */}
-	// 			</TouchableOpacity>
-
-	// 			<List title={'My First List'} firstItem={'My first item'} />
-	// 		</View>
-	// 	);
-	// }
-	// return (
-	// 	<View style={styles.container}>
-	// 		<TouchableOpacity onPress={toggle}>
-	// 			<Text>Press me</Text>
-	// 		</TouchableOpacity>
-	// 	</View>
-	// );
+	render() {
+		return (
+			<View style={styles.container}>
+				<h1>The List App</h1>
+				<button onClick={this.handleClick}>{this.state.isToggleOn ? 'Toggle ON' : 'Toggle OFF'}</button>
+				<button onClick={this.triggerButton}>Toggle button for the List component.</button>
+				{this.state.ternary_statement ? <List /> : null}
+				<button onClick={() => console.log('working')}>If pressed, List component will be added.</button>
+			</View>
+		);
+	}
 }
-
-// const List = (props) => {
-// 	return (
-// 		<div>
-// 			<h1>{props.title}</h1>
-// 			<p>{props.firstItem}</p>
-// 		</div>
-// 	);
-// };
 
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#fff',
+		backgroundColor: 'lightblue',
 		alignItems: 'center',
 		justifyContent: 'center',
 	},

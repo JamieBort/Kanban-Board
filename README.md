@@ -1,8 +1,6 @@
 # Kanban-Board
 A kanban board using the React Native JavaScript framework, the Redux JavaScript library, and Expo.
 
-**Create a new branch!!!!!!**
-
 ## To-Do Items
 
 * Create an app called `Kanban Board` using 
@@ -24,9 +22,19 @@ A kanban board using the React Native JavaScript framework, the Redux JavaScript
 
 ## Next Steps
 
-* Create a `ListItemComponents` branch.
+* ~~Create a `ListItemComponents` branch.~~ Done.
 
-* Create a `List` component and an `Item` component.
+* ~~Create a `List` component and an `Item` component.~~ Done.
+
+* ~~Have the `List` component render by toggling a button.~~ Done.
+
+* Generate a `List` component each time the `Add List` button is selected.
+
+* Remove a `List` component each time the `Remove List` button is selected.
+
+* Generate an `Item` component each time the button is pushed.
+
+* Generate an `Item` component each time a string is entered into the field and the button is pushed.
 
 * Delete the `gitignore` branch.
 

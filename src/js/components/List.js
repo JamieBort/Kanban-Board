@@ -6,13 +6,21 @@ const List = () => {
 	return (
 		<div>
 			<Text>Hello, I am your List!</Text>
-			<button>Button to remove a list.</button>
-			<button>Button to add an item.</button>
-			<ul>
+			<button>Button to remove the entire list.</button>
+			<button>Button to add an item to the list.</button>
+			{/* <ul>
 				<Item message="first" />
 				<Item message="second" />
-			</ul>
+			</ul> */}
 		</div>
+
+		// <div>
+		// 	<form>
+		// 		<label htmlFor="todoTitle">Title:</label>
+		// 		<input id="todoTitle" />
+		// 		<button>Button to add a list item</button>
+		// 	</form>
+		// </div>
 	);
 };
 
