@@ -5,7 +5,7 @@ import Item from './Item';
 const List = (props) => {
 	return (
 		<div>
-			<Text>{props.number} List</Text>
+			<Text>{props.title}</Text>
 			<button>Button in List to remove the entire list.</button>
 			<button>Button to add an item to the list.</button>
 			{/* <ul>
