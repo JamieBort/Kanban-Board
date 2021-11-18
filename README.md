@@ -32,9 +32,12 @@ A kanban board using the React Native JavaScript framework, the Redux JavaScript
 
 * ~~Remove a `List` component each time the `Remove List` button is selected.~~ Done.
 
-* ~~Add a `input` tag such that the list can be named.~~ Done.
+* ~~Add an `input` tag such that the list can be named.~~ Done.
 
-* Move the `form` element to a `Form` component in another file.
+* **create branch** (off of the `ListItemComponents` branch) **for the next step!!**
+
+* Move the `form` element to a `Form` component in another file. **create branch before doing this!!**
+    * To do this, raise state. Don't use Redux. See https://learn.codethedream.org/react-fundamentals-lifting-state-and-props-handling/
 
 * Generate an `Item` component each time the button is pushed.
 
