@@ -22,6 +22,8 @@ A kanban board using the React Native JavaScript framework, the Redux JavaScript
 
 ## Next Steps
 
+**NONE.** See [**Status**](https://github.com/JamieBort/Kanban-Board/tree/ListItemComponents#status) **[Status](https://github.com/JamieBort/Kanban-Board/tree/ListItemComponents#status)** section below.
+
 * ~~Create a `ListItemComponents` branch.~~ Done.
 
 * ~~Create a `List` component and an `Item` component.~~ Done.
