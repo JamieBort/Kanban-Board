@@ -66,6 +66,8 @@ A kanban board using the React Native JavaScript framework, the Redux JavaScript
 
 ## Status
 
+* **Tabled for this https://github.com/JamieBort/weight-lifting-app project.**
+
 * Created a `gitignore` branch so that a comprehensive .gitignore file can be added to this repo.
 
 * Attempting to get the List component to load once the button is selected.
